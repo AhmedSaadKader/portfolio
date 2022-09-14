@@ -1,0 +1,62 @@
+.gridTitle {
+    padding-left: 20px;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    gap: 15px;
+    margin: 10px 20px 20px 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px rgba(0, 0, 0, .2);
+    height: 85vh;
+    
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgButton {
+    border: none;
+    background-color: white;
+    
+}
+
+.cardImage {
+    height: 90%;
+    /* padding: 20px; */
+    max-width: 100%;
+}
+
+.projectTitle, .projectDescription {
+    padding: 10px 10px 10px 20px;
+}
+
+.projectTitle {
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectDescription {
+    min-height: 80px;
+
+}
+
+.svgDiv {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.SVG {
+    width: 20px;
+}

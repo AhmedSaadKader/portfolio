@@ -1,0 +1,45 @@
+.footerDiv {
+    background-color: #0891b2;
+    color: white;
+}
+
+.contactMe {
+    font-weight: 700;
+    font-size: larger;
+    margin: 10px;
+}
+
+.invite {
+    font-weight: 400;
+    font-size: large;
+    margin: 10px;
+}
+
+.address {
+    font-weight: 300;
+    font-size: medium;
+    margin: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.infoSVG {
+    width: 20px;
+}
+
+.phone, .email {
+    font-weight: 300;
+    font-size: medium;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.svgDiv {
+    display: flex;
+}
+
+.SVG {
+    width: 50px;
+}
