@@ -36,7 +36,10 @@ useEffect(() => {
               previewImages={project.images}
               name={project.name}
               description={project.description}
+              code={project.code}
+              link={project.link}
               slideIndex={slideIndex}
+              setSlideIndex={setSlideIndex}
               nextSlide={nextSlide}
               prevSlide={prevSlide}
             />

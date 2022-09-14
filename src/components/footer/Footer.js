@@ -22,8 +22,16 @@ export default function Footer() {
         ahmed.saad.kader@gmail.com
       </div>
       <div className={styles.svgDiv}>
-        <div className={styles.SVG}>{githubSVG}</div>
-        <div className={styles.SVG}>{linkedinSVG}</div>
+        <div className={styles.SVG}>
+          <a href="https://github.com/AhmedSaadKader" target="_blank" rel="noreferrer">
+            {githubSVG}
+          </a>
+        </div>
+        <div className={styles.SVG}>
+          <a href="https://www.linkedin.com/in/ahmed-saad-60856892/" target="_blank" rel="noreferrer">
+            {linkedinSVG}{" "}
+          </a>
+        </div>
       </div>
     </footer>
   );

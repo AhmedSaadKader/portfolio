@@ -35,6 +35,11 @@
     width: 50px;
 }
 
+.clickForProjects{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media (max-width: 1000px) and (min-width: 500px){
     .aboutDiv {
         padding: 10% 10%;
