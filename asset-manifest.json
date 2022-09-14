@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.862b588d.css",
+    "main.js": "/react-gh-pages/static/js/main.53ee3116.js",
+    "static/media/Capture.PNG": "/react-gh-pages/static/media/Capture.634a711c942910ddc448.PNG",
+    "static/media/pokemonMemory.PNG": "/react-gh-pages/static/media/pokemonMemory.86e34fa2c30259f011c5.PNG",
+    "static/media/allDrugs.PNG": "/react-gh-pages/static/media/allDrugs.9c6f3dd8ff9fde837297.PNG",
+    "static/media/weddingPhoto.jpg": "/react-gh-pages/static/media/weddingPhoto.e8530955947a06fba5f1.jpg",
+    "static/media/cvTemplate.PNG": "/react-gh-pages/static/media/cvTemplate.dda4e3798f02cd6258e3.PNG",
+    "index.html": "/react-gh-pages/index.html",
+    "main.862b588d.css.map": "/react-gh-pages/static/css/main.862b588d.css.map",
+    "main.53ee3116.js.map": "/react-gh-pages/static/js/main.53ee3116.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.862b588d.css",
+    "static/js/main.53ee3116.js"
+  ]
+}
