@@ -10,9 +10,14 @@ export default function About() {
         <h1 className={styles.name}>Ahmed Saad</h1>
         <div className={styles.textDiv}>
           <h3>About me</h3>
-          <p>
-            lorem impsum lorem impsum lorem impsum lorem impsumlorem impsum lorem impsum lorem impsum lorem impsum lorem
-            impsum lorem impsum lorem impsum
+          <p>Self-taught full stack web developper based in Cairo.</p>
+          <p
+            onClick={() => {
+              const anchor = document.querySelector("#projects");
+              anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+            }}
+          >
+            Check some of my work <i>below</i>.
           </p>
           <div className={styles.svgDiv}>
             <div className={styles.SVG}>{githubSVG}</div>
