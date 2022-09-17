@@ -2,9 +2,11 @@ import epharmacyAllDrugs from "./projectImages/epharmacy/allDrugs.PNG";
 import pokeMemory from "./projectImages/memoryGame/pokemonMemory.PNG";
 import waldoFirst from "./projectImages/waldo/Capture.PNG";
 import cvTemplate from "./projectImages/cvTemplate/cvTemplate.PNG";
+import { v4 } from "uuid";
 
 export const projectsList = [
   {
+    id: v4(),
     images: [
       epharmacyAllDrugs,
       "./projectImages/epharmacy/epharmacy screenshots.PNG",
@@ -16,6 +18,7 @@ export const projectsList = [
     link: "https://epharmacy-az.web.app/",
   },
   {
+    id: v4(),
     images: [pokeMemory],
     name: "Memory Game",
     description: "html css javascript react",
@@ -23,6 +26,7 @@ export const projectsList = [
     link: "https://ahmedsaadkader.github.io/memory-game/",
   },
   {
+    id: v4(),
     images: [waldoFirst],
     name: "Finding Waldo",
     description: "html css javascript react firebase",
@@ -30,6 +34,7 @@ export const projectsList = [
     link: "https://where-s-waldo-aza.web.app/",
   },
   {
+    id: v4(),
     images: [cvTemplate],
     name: "CV Template",
     description: "html css javascript react firebase",

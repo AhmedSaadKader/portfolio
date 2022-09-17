@@ -1,10 +1,12 @@
 import styles from "./Projects.module.css";
 import { githubSVG, previewSVG } from "../../SVGs.js";
 import { projectsList } from "./projectsList";
+import { useState } from "react";
 
 export default function ProjectCard({
   index,
   previewImages,
+  project,
   name,
   description,
   code,
@@ -19,7 +21,15 @@ export default function ProjectCard({
       <div className={styles.dotsContainer}>
         {Array.from({ length: projectsList.length }).map((item, index) => {
           if (index === slideIndex) {
-            return <div className={`${styles.dot} ${styles.dotActive}`} onClick={() => setSlideIndex(index)}></div>;
+            return (
+              <div
+                className={`${styles.dot} ${styles.dotActive}`}
+                onClick={() => {
+                  console.log(project);
+                  setSlideIndex(index);
+                }}
+              ></div>
+            );
           } else {
             return <div className={styles.dot} onClick={() => setSlideIndex(index)}></div>;
           }
@@ -34,10 +44,10 @@ export default function ProjectCard({
           {">"}
         </button>
       </div>
-      <h1 className={styles.projectTitle}>
+      <h1 className={styles.projectTitle} onClick={() => console.log(name)}>
         {name}
         <div className={styles.svgDiv}>
-          <div className={styles.SVG}>
+          <div className={styles.SVG} onClick={() => console.log(project.id)}>
             <a href={code} target="_blank" rel="noreferrer">
               {githubSVG}
             </a>

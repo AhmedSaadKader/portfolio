@@ -11,7 +11,7 @@
 }
 
 .card {
-    display: flex;
+    display: none;
     flex-direction: column;
     box-shadow: 5px 5px rgba(0, 0, 0, .1);
     height: 90vh;
@@ -19,12 +19,13 @@
     align-items: center;
     width: 100%;
     background-color: whitesmoke;
-    opacity: 0;
-    transition: opacity ease-in-out 0.4s;
+    /* opacity: 0; */
+    transition: display ease-in-out 0.4s;
 }
 
 .cardActive {
-    opacity: 1;
+    /* opacity: 1; */
+    display: flex;
 }
 
 .imgDiv {
