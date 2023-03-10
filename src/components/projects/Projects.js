@@ -44,7 +44,7 @@ export default function Projects() {
     const interval = setInterval(() => {
       if (slideIndex < projectsList.length - 1) setSlideIndex(slideIndex + 1);
       else if (slideIndex === projectsList.length - 1) setSlideIndex(0);
-    }, 2000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [slideIndex]);
 

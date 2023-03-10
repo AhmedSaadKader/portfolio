@@ -11,7 +11,10 @@ export default function About() {
         <div className={styles.textDiv}>
           <h3>About me</h3>
           <p>Self-taught full stack web developper and pharmacist based in Cairo.</p>
-          <p>My stack includes HTML, CSS, JavaScript, React, and Firebase </p>
+          <p>
+            My stack includes HTML, CSS, JavaScript, Typescript, React, NodeJs, Express, Postgresql, MongoDb and
+            Firebase
+          </p>
           <p
             onClick={() => {
               const anchor = document.querySelector("#projects");

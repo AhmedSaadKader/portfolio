@@ -47,11 +47,13 @@ export default function ProjectCard({
       <h1 className={styles.projectTitle} onClick={() => console.log(name)}>
         {name}
         <div className={styles.svgDiv}>
-          <div className={styles.SVG} onClick={() => console.log(project.id)}>
-            <a href={code} target="_blank" rel="noreferrer">
-              {githubSVG}
-            </a>
-          </div>
+          {code && (
+            <div className={styles.SVG} onClick={() => console.log(project.id)}>
+              <a href={code} target="_blank" rel="noreferrer">
+                {githubSVG}
+              </a>
+            </div>
+          )}
           <div className={styles.SVG}>
             {" "}
             <a href={link} target="_blank" rel="noreferrer">
