@@ -6,6 +6,7 @@ import hiringSolutionsImage from "./projectImages/hiringSolutions/hiringsolution
 import TicTacToeImage from "./projectImages/TicTacToe/TicTacToeScreenshot.PNG";
 import storeFrontImage from "./projectImages/StorefrontBackend/StorefrontBackendScreenshot.PNG";
 import imageProcessingAPI from "./projectImages/ImageProcessingAPI/imageProcessingAPIScreenShot.PNG";
+import YoutubeEmbed from "./YoutubeEmbed";
 import { v4 } from "uuid";
 
 export const projectsList = [
@@ -72,6 +73,14 @@ export const projectsList = [
   {
     id: v4(),
     images: [cvTemplate],
+    name: "CV Template",
+    description: "html css javascript react firebase",
+    code: "https://github.com/AhmedSaadKader/cv-project",
+    link: "https://ahmedsaadkader.github.io/cv-project/",
+  },
+  {
+    id: v4(),
+    images: [YoutubeEmbed],
     name: "CV Template",
     description: "html css javascript react firebase",
     code: "https://github.com/AhmedSaadKader/cv-project",

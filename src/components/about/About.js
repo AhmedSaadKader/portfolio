@@ -31,7 +31,7 @@ export default function About() {
               </a>
             </div>
             <div className={styles.SVG}>
-              <a href="https://www.linkedin.com/in/ahmed-saad-60856892/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/ahmed-saad-29b755269/" target="_blank" rel="noreferrer">
                 {linkedinSVG}{" "}
               </a>
             </div>
