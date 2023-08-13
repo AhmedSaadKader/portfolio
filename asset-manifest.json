@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3e2429da.css",
-    "main.js": "/portfolio/static/js/main.17b01d52.js",
+    "main.css": "/portfolio/static/css/main.f0fc4e21.css",
+    "main.js": "/portfolio/static/js/main.e51a6e72.js",
     "static/media/Capture.PNG": "/portfolio/static/media/Capture.634a711c942910ddc448.PNG",
     "static/media/pokemonMemory.PNG": "/portfolio/static/media/pokemonMemory.86e34fa2c30259f011c5.PNG",
     "static/media/hiringsolutionsScreenshot.PNG": "/portfolio/static/media/hiringsolutionsScreenshot.0c3b574f96b7e561ff06.PNG",
@@ -12,11 +12,11 @@
     "static/media/TicTacToeScreenshot.PNG": "/portfolio/static/media/TicTacToeScreenshot.28a6165cf72d190151c7.PNG",
     "static/media/StorefrontBackendScreenshot.PNG": "/portfolio/static/media/StorefrontBackendScreenshot.1c7392c6f418edcaf69c.PNG",
     "index.html": "/portfolio/index.html",
-    "main.3e2429da.css.map": "/portfolio/static/css/main.3e2429da.css.map",
-    "main.17b01d52.js.map": "/portfolio/static/js/main.17b01d52.js.map"
+    "main.f0fc4e21.css.map": "/portfolio/static/css/main.f0fc4e21.css.map",
+    "main.e51a6e72.js.map": "/portfolio/static/js/main.e51a6e72.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e2429da.css",
-    "static/js/main.17b01d52.js"
+    "static/css/main.f0fc4e21.css",
+    "static/js/main.e51a6e72.js"
   ]
 }
