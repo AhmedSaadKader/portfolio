@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0652f96f.css",
+    "main.css": "/portfolio/static/css/main.4fe349de.css",
     "main.js": "/portfolio/static/js/main.9c6e6ace.js",
     "static/media/Capture.PNG": "/portfolio/static/media/Capture.634a711c942910ddc448.PNG",
     "static/media/pokemonMemory.PNG": "/portfolio/static/media/pokemonMemory.86e34fa2c30259f011c5.PNG",
@@ -12,11 +12,11 @@
     "static/media/TicTacToeScreenshot.PNG": "/portfolio/static/media/TicTacToeScreenshot.28a6165cf72d190151c7.PNG",
     "static/media/StorefrontBackendScreenshot.PNG": "/portfolio/static/media/StorefrontBackendScreenshot.1c7392c6f418edcaf69c.PNG",
     "index.html": "/portfolio/index.html",
-    "main.0652f96f.css.map": "/portfolio/static/css/main.0652f96f.css.map",
+    "main.4fe349de.css.map": "/portfolio/static/css/main.4fe349de.css.map",
     "main.9c6e6ace.js.map": "/portfolio/static/js/main.9c6e6ace.js.map"
   },
   "entrypoints": [
-    "static/css/main.0652f96f.css",
+    "static/css/main.4fe349de.css",
     "static/js/main.9c6e6ace.js"
   ]
 }
